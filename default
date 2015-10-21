@@ -1,6 +1,8 @@
 .help-faq {
   .glue-zippy-content {
     margin-left: 5px;
+
+    padding: 0;
   }
   
   .glue-zippy
