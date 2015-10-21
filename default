@@ -1,0 +1,120 @@
+.help-faq {
+  .glue-zippy-content {
+    margin-left: 5px;
+  }
+  
+  .glue-zippy
+  {
+     border-bottom: #d4d4d4 1px solid;
+  }
+
+  .glue-zippy-set ul {
+    margin: 0px;
+  }
+  
+  .faq-wrapper span:first-child {
+    display: inline-block;
+    width: 85%;
+  }
+
+ .resources ul li 
+ {
+    list-style-type:square;
+ }
+  
+  .glue-zippy-btn {
+    color: #245dc1;
+    cursor: pointer;
+    outline: 0;
+    padding: 14px 0;
+  }
+  
+  .glue-zippy-toggle-all {
+      border-bottom: #d4d4d4 1px solid;
+      color: #245dc1;
+      cursor: pointer;
+      outline: 0;
+      text-align: right;
+      text-transform: uppercase;
+      padding-bottom: 6px;
+  }
+
+  .glue-zippy-set {
+
+    &.glue-zippy-set-expanded .collapse,
+    &.glue-zippy-set-collapsed .expand {
+      display: inline;
+    }
+
+    &.glue-zippy-set-mixed .collapse,
+    &.glue-zippy-set-collapsed .collapse,
+    &.glue-zippy-set-expanded .expand {
+      display: none;
+    }
+
+  }
+
+  .glue-zippy-set.glue-zippy-style .glue-fx-collapse > div {
+     padding-bottom: 6px;
+     padding-top: 0px;
+  }
+  
+  .glue-zippy-set.glue-zippy-style .glue-zippy-btn {
+    position: relative;
+  }
+  
+  .glue-zippy-set.glue-zippy-style .glue-zippy-btn:not(.maia-button) {
+    color: #245dc1;
+    cursor: pointer;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 22px;
+  }
+
+  .glue-zippy-set.glue-zippy-style .glue-zippy-btn:not(.maia-button):before {
+    content: '';
+    margin: 0px;
+  }
+
+  .glue-zippy-set.glue-zippy-style .glue-zippy-btn:not(.maia-button) span:last-child {
+    display: inline-block;
+    float: right;
+  }
+  
+  .glue-tabby.glue-zippy-style .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-tabby.glue-zippy-style.glue-zippy-expanded .glue-zippy-btn:not(.maia-button):after, .glue-zippy-facade.glue-zippy-style .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-zippy-facade.glue-zippy-style.glue-zippy-expanded .glue-zippy-btn:not(.maia-button):after, .glue-zippy.glue-zippy-style .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-zippy.glue-zippy-style.glue-zippy-expanded .glue-zippy-btn:not(.maia-button):after, .glue-zippy-set.glue-zippy-style .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-zippy-set.glue-zippy-style.glue-zippy-expanded .glue-zippy-btn:not(.maia-button):after, .glue-zippy-set-single.glue-zippy-style .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-zippy-set-single.glue-zippy-style.glue-zippy-expanded .glue-zippy-btn:not(.maia-button):after, .glue-zippy-set-style .glue-zippy .glue-zippy-expanded>.glue-zippy-btn:not(.maia-button):after, .glue-zippy-set-style .glue-zippy-expanded.glue-zippy .glue-zippy-btn:not(.maia-button):after {
+    transform: rotate(90deg);
+    transition: transform .2s ease-out;
+  }
+  
+  .icon-expand-close {
+    position: relative;
+    top: 1px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .help-faq .glue-zippy-set.glue-zippy-style .glue-zippy-btn:not(.maia-button) {
+    font-size: 13px;
+  }
+
+  .help-faq .faq-wrapper {
+    position: relative;
+  }
+
+  .help-faq .faq-wrapper span:first-child {
+    width: 85%;
+  }
+
+  .help-faq .faq-wrapper span:last-child {
+    position: absolute;
+    right: 0;
+  }
+
+  .glue-zippy-set.glue-zippy-style .glue-zippy-btn:not(.maia-button) span:last-child {
+    float: none;
+  }
+
+}
